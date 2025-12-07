@@ -1,0 +1,15 @@
+<svg width="300" height="350" xmlns="http://www.w3.org/2000/svg">
+  <!-- 제목 -->
+  <text x="150" y="30" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">정삼각형</text>
+  
+  <!-- 정삼각형 -->
+  <polygon points="150.0,100.0 236.60254037844388,250.0 63.39745962155612,250.0" fill="#ffeb99" stroke="#000" stroke-width="3"/>
+  
+  <!-- 중앙 각도 표시 -->
+  <text x="150" y="205" text-anchor="middle" font-size="20" font-weight="bold" fill="red">?°</text>
+  
+  <!-- 변 표시 -->
+  <text x="150" y="90" text-anchor="middle" font-size="14" fill="#666">같은 길이</text>
+  <text x="90" y="255" text-anchor="middle" font-size="14" fill="#666">같은 길이</text>
+  <text x="210" y="255" text-anchor="middle" font-size="14" fill="#666">같은 길이</text>
+</svg>

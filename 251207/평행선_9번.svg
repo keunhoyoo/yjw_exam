@@ -1,0 +1,26 @@
+<svg width="400" height="320" xmlns="http://www.w3.org/2000/svg">
+  <!-- 제목 -->
+  <text x="200" y="30" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">평행선과 엇각</text>
+  
+  <!-- 평행선 l -->
+  <line x1="30" y1="100" x2="370" y2="100" stroke="#0066cc" stroke-width="3"/>
+  <text x="380" y="105" font-size="20" font-weight="bold" fill="#0066cc">l</text>
+  
+  <!-- 평행선 m -->
+  <line x1="30" y1="220" x2="370" y2="220" stroke="#0066cc" stroke-width="3"/>
+  <text x="380" y="225" font-size="20" font-weight="bold" fill="#0066cc">m</text>
+  
+  <!-- 가로지르는 선 -->
+  <line x1="140" y1="60" x2="260" y2="260" stroke="#000" stroke-width="3"/>
+  
+  <!-- 각도 호 (위) -->
+  <path d="M 165 100 A 25 25 0 0 1 180 85" fill="none" stroke="red" stroke-width="2"/>
+  <text x="175" y="75" text-anchor="middle" font-size="18" font-weight="bold" fill="red">65°</text>
+  
+  <!-- 각도 호 (아래) -->
+  <path d="M 220 220 A 25 25 0 0 1 235 235" fill="none" stroke="green" stroke-width="2"/>
+  <text x="225" y="250" text-anchor="middle" font-size="18" font-weight="bold" fill="green">x°</text>
+  
+  <!-- 설명 -->
+  <text x="200" y="295" text-anchor="middle" font-size="14" fill="#666">엇각의 성질: 평행선에서 엇각은 같다</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg width="350" height="450" xmlns="http://www.w3.org/2000/svg">
+  <!-- 제목 -->
+  <text x="175" y="30" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">원기둥</text>
+  
+  <!-- 위 타원 -->
+  <ellipse cx="175" cy="85" rx="100" ry="35" fill="#ffe6e6" stroke="#000" stroke-width="3"/>
+  
+  <!-- 옆면 -->
+  <line x1="75" y1="85" x2="75" y2="350" stroke="#000" stroke-width="3"/>
+  <line x1="275" y1="85" x2="275" y2="350" stroke="#000" stroke-width="3"/>
+  <rect x="75" y="85" width="200" height="265" fill="none"/>
+  
+  <!-- 아래 타원 (반만) -->
+  <path d="M 75 350 Q 175 385, 275 350" fill="none" stroke="#000" stroke-width="3"/>
+  <line x1="75" y1="350" x2="275" y2="350" stroke="#000" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- 치수 표시 -->
+  <!-- 높이 -->
+  <line x1="290" y1="85" x2="290" y2="350" stroke="red" stroke-width="2" marker-start="url(#arrowred)" marker-end="url(#arrowred)"/>
+  <text x="300" y="220" font-size="16" fill="red">높이 = 10cm</text>
+  
+  <!-- 반지름 -->
+  <line x1="175" y1="85" x2="275" y2="85" stroke="blue" stroke-width="2" marker-end="url(#arrowblue)"/>
+  <text x="225" y="70" text-anchor="middle" font-size="16" fill="blue">r = 4cm</text>
+  
+  <!-- 화살표 정의 -->
+  <defs>
+    <marker id="arrowred" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0,0 10,5 0,10" fill="red"/>
+    </marker>
+    <marker id="arrowblue" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0,0 10,5 0,10" fill="blue"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,50 @@
+<svg width="600" height="450" xmlns="http://www.w3.org/2000/svg">
+  <!-- 제목 -->
+  <text x="300" y="35" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">2. 다음 도형의 둘레를 구하세요.</text>
+  
+  <!-- 계단형 도형 (ㄱ자 형태) -->
+  <path d="
+    M 100 100
+    L 340 100
+    L 340 180
+    L 220 180
+    L 220 340
+    L 100 340
+    Z
+  " fill="#e1f5ff" stroke="#000" stroke-width="4"/>
+  
+  <!-- 치수 표시 선들 -->
+  <!-- 위쪽 가로 (8cm) -->
+  <line x1="100" y1="75" x2="340" y2="75" stroke="#ff6b6b" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="100" y1="70" x2="100" y2="80" stroke="#ff6b6b" stroke-width="2"/>
+  <line x1="340" y1="70" x2="340" y2="80" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="220" y="65" text-anchor="middle" font-size="20" font-weight="bold" fill="#ff6b6b">8cm</text>
+  
+  <!-- 오른쪽 세로 (6cm) -->
+  <line x1="365" y1="100" x2="365" y2="180" stroke="#4ecdc4" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="360" y1="100" x2="370" y2="100" stroke="#4ecdc4" stroke-width="2"/>
+  <line x1="360" y1="180" x2="370" y2="180" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="395" y="145" text-anchor="start" font-size="20" font-weight="bold" fill="#4ecdc4">6cm</text>
+  
+  <!-- 중간 가로 안쪽 부분 -->
+  <line x1="220" y1="205" x2="340" y2="205" stroke="#95e1d3" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="280" y="225" text-anchor="middle" font-size="18" fill="#666">(내부)</text>
+  
+  <!-- 왼쪽 아래 세로 (8cm) -->
+  <line x1="75" y1="180" x2="75" y2="340" stroke="#ff6b6b" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="70" y1="180" x2="80" y2="180" stroke="#ff6b6b" stroke-width="2"/>
+  <line x1="70" y1="340" x2="80" y2="340" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="55" y="265" text-anchor="end" font-size="20" font-weight="bold" fill="#ff6b6b">8cm</text>
+  
+  <!-- 아래쪽 가로 (6cm) -->
+  <line x1="100" y1="365" x2="220" y2="365" stroke="#4ecdc4" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="100" y1="360" x2="100" y2="370" stroke="#4ecdc4" stroke-width="2"/>
+  <line x1="220" y1="360" x2="220" y2="370" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="160" y="390" text-anchor="middle" font-size="20" font-weight="bold" fill="#4ecdc4">6cm</text>
+  
+  <!-- 전체 높이 표시 -->
+  <line x1="245" y1="100" x2="245" y2="340" stroke="#95a5a6" stroke-width="2" stroke-dasharray="3,3"/>
+  
+  <!-- 설명 -->
+  <text x="300" y="425" text-anchor="middle" font-size="16" fill="#666">※ 바깥쪽 둘레를 구하세요 (안쪽 선은 제외)</text>
+</svg>
